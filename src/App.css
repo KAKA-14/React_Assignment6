@@ -1,3 +1,19 @@
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background:transparent;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: none;
+}
+::-webkit-scrollbar-thumb {
+  background:linear-gradient(180deg,#121212 ,#AA367C , #4A2FBD );
+  border-radius: 40px;
+}
+
+
 /************ Custom Font ************/
 @font-face {
 	font-family: Centra;
@@ -230,6 +246,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: top center;
   width: 100%;
   background-repeat: no-repeat;
+  position: relative;
+  z-index:-4;
+
 }
 .banner .tagline {
   font-weight: 700;
@@ -330,8 +349,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
+} 
+.background-image-left2 {
+  top: -90%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -1;
+  transform: rotate(180deg);
+  left: 60%;
 }
-
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
