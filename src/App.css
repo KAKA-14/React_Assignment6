@@ -585,5 +585,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 .footer .social-icon {
-  margin-top: 20px;
+  margin-top: 80px;
+}
+#logo{
+  width: 6em;
+  height: 6em;
+  margin-top: 5em;
 }

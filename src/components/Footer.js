@@ -3,14 +3,14 @@ import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-
+import kk from "../assets/img/android-chrome-192x192.png";
 const Footer = () => {
   return (
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
+          <img src={kk} alt="kk" id="logo"/>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
@@ -20,6 +20,7 @@ const Footer = () => {
             </div>
             <div>
                 <p>A Line of code at a Time</p>
+                
             </div>
           </Col>
         </Row>
